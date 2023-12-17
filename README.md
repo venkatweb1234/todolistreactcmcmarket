@@ -26,6 +26,27 @@ A Simple Todo App built with React, Redux, Styled Components, and incorporating 
 
 This Todo App is a feature-rich solution designed to streamline task management. It leverages React and Redux for a robust user interface, while Styled Components provide a visually appealing and responsive design.
 
+- Task 1: Build a React Component
+  Create a React for a simple to-do list. The component should have the following
+  features:
+  Displayed a list of to-do items.
+  Allow users to add new to-do items.
+  Allow users to mark a to-do item as completed.
+  Allow users to delete a to-do item.
+
+- Task 2: State Management
+  Implement state management for the to-do list using either React built-in state or a state
+  management library like Redux. Ensure that the UI reflects the current state of the to-do list
+  accurately.
+
+- Task 3: Styling
+  Style the to-do list component using CSS (or a styling library like Styled Components). Make it
+  visually appealing and responsive.
+
+- Task 4: Unit Testing
+  Write unit tests for at least two critical functions or methods in your React component. Use a testing
+  library like Jest or React Testing Library.
+
 ## Components
 
 ### TodoApp
