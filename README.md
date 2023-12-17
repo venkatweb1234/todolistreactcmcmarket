@@ -105,7 +105,7 @@ To use the Todo App, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/venkatweb1234/todolistreactcmcmarket.git`
 2. Install dependencies: `npm install`
-3. Start the development server: `npm start`
+3. Start the development server: `npm start or yarn start`
 4. Start the test use this command: `npm test`
 
 ## Installation
