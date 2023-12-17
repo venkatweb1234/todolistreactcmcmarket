@@ -82,7 +82,7 @@ The main application file where the Todo App component is rendered. This file se
 
 To use the Todo App, follow these steps:
 
-1. Clone the repository: `git clone `
+1. Clone the repository: `git clone https://github.com/venkatweb1234/todolistreactcmcmarket.git`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
 4. Start the test use this command: `npm test`
