@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { useDispatch } from "react-redux";
 import {
   completeTodo,
@@ -18,14 +18,14 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
   const dispatch = useDispatch();
 
   // Function to handle marking a todo as complete
-  const handleComplete = () => {
+  const handleComplete = useCallback(() => {
     dispatch(completeTodo(todo.id));
-  };
+  }, [dispatch, todo.id]);
 
   // Function to handle deleting a todo
-  const handleDelete = () => {
+  const handleDelete = useCallback(() => {
     dispatch(deleteTodo(todo.id));
-  };
+  }, [dispatch, todo.id]);
 
   return (
     <div>

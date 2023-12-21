@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 import { useDispatch } from "react-redux";
 import { addTodo } from "../features/todos/actions/todoActions";
 import TodoList from "./TodoList";
@@ -14,7 +14,7 @@ const TodoApp: React.FC = () => {
   const [newTodo, setNewTodo] = useState("");
 
   // Function to handle adding a new todo
-  const handleAddTodo = () => {
+  const handleAddTodo = useCallback(() => {
     if (newTodo.trim() !== "") {
       // Create a new Todo object with a unique ID and default completion status
       const todo: Todo = {
@@ -29,7 +29,7 @@ const TodoApp: React.FC = () => {
       // Clear the input field after adding the todo
       setNewTodo("");
     }
-  };
+  }, [dispatch, newTodo]);
 
   return (
     <TodoContainer>
