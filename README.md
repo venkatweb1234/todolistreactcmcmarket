@@ -120,28 +120,28 @@ npm install @reduxjs/toolkit react-redux styled-components
 
 ** Component Architecture**
 
-- ![Reference Screenshot](src\output\compoentStructure.png)
+- Please Refer path: src\output\compoentStructure.png
 
 ** TodListItemsAddedforDesktop**
 
-- ![Reference Screenshot](src\output\TodListItemsAddedforDesktop.png)
+- Please Refer path: src\output\TodListItemsAddedforDesktop.png
 
 ** TododListMobile**
 
-- ![Reference Screenshot](src\output\TododListMobile.png)
+- Please Refer path: src\output\TododListMobile.png
 
 ** TododListMobileTodoListItems**
 
-- ![Reference Screenshot](src\output\TododListMobileTodoListItems.png)
+- Please Refer path: src\output\TododListMobileTodoListItems.png
 
 ** TododListResponsiveVisually**
 
-- ![Reference Screenshot](src\output\TododListResponsiveVisually.png)
+- Please Refer path:src\output\TododListResponsiveVisually.png
 
 ** TodoListCompleteTodoItems**
 
-- ![Reference Screenshot](src\output\TodoListCompleteTodoItems.png)
+- Please Refer path:src\output\TodoListCompleteTodoItems.png
 
 ** TodoListIntialDesktopScreen**
 
-- ![Reference Screenshot](src\output\TodoListIntialDesktopScreen.png)
+- Please Refer path:src\output\TodoListIntialDesktopScreen.png
